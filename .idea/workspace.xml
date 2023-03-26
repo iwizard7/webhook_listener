@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0823bc72-9a98-4df1-8f80-657fb476241a" name="Changes" comment="fixup! first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="0823bc72-9a98-4df1-8f80-657fb476241a" name="Changes" comment="Add logging func" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +32,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="350bfa8aac5ea7fab96c232f2bf465f5669d04ea" />
+        <entry key="$PROJECT_DIR$" value="172e052cf74022efff10c14fa30f2deea36e029f" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679836287978</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add logging func">
+      <created>1679844708711</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679844708711</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +222,7 @@
     <MESSAGE value="squash! first commit" />
     <MESSAGE value="first commit" />
     <MESSAGE value="fixup! first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup! first commit" />
+    <MESSAGE value="Add logging func" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add logging func" />
   </component>
 </project>
