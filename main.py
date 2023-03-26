@@ -12,5 +12,5 @@ def webhook():
             fp.write(str(request.json))
         return "Webhook received!"
 
-logging.basicConfig(filename='error.log',level=logging.DEBUG) #log
+logging.basicConfig(filename='error.log',level=logging.DEBUG) #logging
 app.run(host='0.0.0.0', port=8000)
