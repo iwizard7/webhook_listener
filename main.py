@@ -1,4 +1,5 @@
 from flask import Flask, request
+import logging
 
 app = Flask(__name__)
 
@@ -11,5 +12,5 @@ def webhook():
             fp.write(str(request.json))
         return "Webhook received!"
 
-
+logging.basicConfig(filename='error.log',level=logging.DEBUG) #log
 app.run(host='0.0.0.0', port=8000)
