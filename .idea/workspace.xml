@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0823bc72-9a98-4df1-8f80-657fb476241a" name="Changes" comment="Add logging func" />
+    <list default="true" id="0823bc72-9a98-4df1-8f80-657fb476241a" name="Changes" comment="Add logging function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679844708711</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add logging function">
+      <created>1679845063585</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679845063585</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +230,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="fixup! first commit" />
     <MESSAGE value="Add logging func" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add logging func" />
+    <MESSAGE value="Add logging function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add logging function" />
   </component>
 </project>
