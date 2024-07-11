@@ -6,16 +6,16 @@ Flask-приложение для обработки вебхуков.
 Возвращает:
 Сообщение 'Webhook received!'.
 """
-from flask import Flask, request
 import logging
 import sys
+from flask import Flask, request
 
 app = Flask(__name__)
 
 
 @app.route('/', methods=['POST'])
 def webhook():
- """
+    """
  Функция webhook обрабатывает POST-запросы.
 
  Если метод запроса POST, то приложение сохраняет данные запроса в файл 'variables.txt'.
@@ -23,9 +23,9 @@ def webhook():
  Возвращает:
  Сообщение 'Webhook received!'.
  """
- if request.method == 'POST':
+    if request.method == 'POST':
         print("Data received from Webhook is: ", request.json)
-        with open('variables.txt', 'w') as fp:
+        with open('variables.txt', 'w', encoding='utf-8') as fp:
             fp.write(str(request.json))
         return "Webhook received!"
 
