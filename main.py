@@ -7,7 +7,7 @@ Flask-приложение для обработки вебхуков.
 Сообщение 'Webhook received!'.
 """
 import logging
-import sys
+#import sys
 from flask import Flask, request
 
 app = Flask(__name__)
