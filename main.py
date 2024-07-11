@@ -23,7 +23,7 @@ def webhook():
  Возвращает:
  Сообщение 'Webhook received!'.
  """
-    if request.method == 'POST':
+ if request.method == 'POST':
         print("Data received from Webhook is: ", request.json)
         with open('variables.txt', 'w') as fp:
             fp.write(str(request.json))
