@@ -1,3 +1,8 @@
 .idea/
 error.log
 variables.txt
+data/
+*.db
+.venv/
+.pytest_cache/
+__pycache__/
